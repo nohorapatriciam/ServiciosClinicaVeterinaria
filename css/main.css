@@ -83,5 +83,16 @@ footer.page-footer {
     background-size: cover;
 }
 
+/*Pagina de Registro*/
+
+.registro-titulo {
+    margin-top: 60px;
+
+}
+
+.registro-header {
+    height: 400px;
+}
+
 
 
