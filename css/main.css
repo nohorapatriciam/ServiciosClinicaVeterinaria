@@ -105,7 +105,14 @@ h1, h2, h3, h4, h5, h6 {
     height: 250px;
 }
 
+.card-title-doctor {
+    color: #003057;
+    font-size: 22px;
+}
 
+.text-doctor {
+    font-size: 0.9rem;
+}
 
 
 
