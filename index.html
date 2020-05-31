@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Blog</title>
+    <title>Servicios Clínica Veterinaria</title>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
@@ -13,12 +13,11 @@
 </head>
 <body>
     <header>
-
-        <nav class="container">
+          <nav class="container">
             <a href="index.html" class="brand-logo valign-wrapper">
                 <img class="responsive-img left" src="img/logosalle2.png" alt="logo de blog">
             </a>
-            <ul class="right valign-wrapper">
+            <ul class="right hide-on-med-and-down">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="post.html">Producto</a></li>
                 <li><a href="conocenos.html">Equipo Médico</a></li>
@@ -231,7 +230,18 @@
             </div>
     </footer>
    <!-- Compiled and minified JavaScript -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems, options);
+      });
+
+      // Or with jQuery
+
+      $(document).ready(function(){
+        $('.sidenav').sidenav();
+      });
+  </script>
              
             
 </body>
